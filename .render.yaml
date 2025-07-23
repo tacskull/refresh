@@ -1,7 +1,7 @@
 services:
   - type: web
     name: roblox-refresh-api
-    env: docker
+    env: php
     plan: free
     buildCommand: ""
     startCommand: php -S 0.0.0.0:10000 -t .
